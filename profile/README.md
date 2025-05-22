@@ -19,7 +19,7 @@ These are the primary applications used to interact with and manage the Netmig e
 
 ## 🧩 Script Repositories
 
-Each script is housed in its own dedicated repository for better modularity and versioning. These are also available as submodules in the [`script-collection`](https://wwwin-github.cisco.com/Netmig/script-collection) repo.
+Each script is housed in its own dedicated repository for better modularity and versioning.
 
 | Script | Purpose |
 |--------|---------|
