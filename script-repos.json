@@ -1,0 +1,12 @@
+[
+  {"name": "mac-compare", "url": "https://wwwin-github.cisco.com/Netmig/script-mac-compare"},
+  {"name": "netdiffx", "url": "https://wwwin-github.cisco.com/Netmig/script-netdiffx"},
+  {"name": "netdisc", "url": "https://wwwin-github.cisco.com/Netmig/script-netdisc"},
+  {"name": "netsure", "url": "https://wwwin-github.cisco.com/Netmig/script-netsure"},
+  {"name": "ping-lite", "url": "https://wwwin-github.cisco.com/Netmig/script-ping-lite"},
+  {"name": "replacer", "url": "https://wwwin-github.cisco.com/Netmig/script-replacer"},
+  {"name": "snapshot", "url": "https://wwwin-github.cisco.com/Netmig/script-snapshot"},
+  {"name": "tablify", "url": "https://wwwin-github.cisco.com/Netmig/script-tablify"},
+  {"name": "querynet", "url": "https://wwwin-github.cisco.com/Netmig/script-querynet"},
+  {"name": "topoviz", "url": "https://wwwin-github.cisco.com/Netmig/script-topoviz"}
+]
