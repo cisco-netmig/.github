@@ -42,13 +42,11 @@ Each script is housed in its own dedicated repository for better modularity and 
 - 🧱 Modular, script-driven architecture
 - 📈 Dashboards for savings and execution logging
 - ⚙️ Git-based submodule structure
-- 📦 Built with Python, PyQt5, and TextFSM
 
 ---
 
 ## 📄 License
 
-MIT License © 2025 Sanjeev Krishna  
-This organization is maintained as part of internal Cisco tooling for scalable, reusable network automation.
+MIT License © 2025 Sanjeev Krishna
 
 ---
