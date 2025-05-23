@@ -192,3 +192,29 @@ Netmig addresses these challenges by:
 </table>
 
 ---
+
+## Contributing
+
+We welcome contributions from the community! Whether it's a new script, feature enhancement, or documentation improvement:
+
+- **Option 1:** Fork this repository, make your changes, and submit a pull request.
+- **Option 2:** Contact the maintainer directly to collaborate on new module development.
+
+**Maintainer:** Sanjeev Krishna  
+[sanjeekr@cisco.com](mailto:sanjeekr@cisco.com)
+
+---
+
+## Documentation
+
+- [Netmig Setup Guide (Windows/Linux/macOS)](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/setup-guide.md)
+- [Creating and Publishing a Netmig Script](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/script-guide.md)
+
+---
+
+## License
+
+This project is licensed under the **MIT License**.  
+© 2024 - 2025 Sanjeev Krishna. All rights reserved.
+
+---
