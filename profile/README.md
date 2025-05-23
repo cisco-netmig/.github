@@ -162,7 +162,7 @@ Netmig addresses these challenges by:
       <td valign="top" style="width: 33%; padding: 8px;">
         <strong>Option 2: GUI Installer</strong><br>
         🔹 NSIS-based Windows executable<br><br>
-        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/netmig-win64-installer.exe">Download netmig-win64-installer.exe</a><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/netmig-win64-installer.exe">Download netmig-win64-installer.exe</a><br>
         2. Run installer<br>
         3. Choose:<br>
         ▪ Components to install<br>
@@ -175,7 +175,7 @@ Netmig addresses these challenges by:
       <td valign="top" style="width: 33%; padding: 8px;">
         <strong>Option 2: Debian Package</strong><br>
         🔹 For Ubuntu/Debian systems<br><br>
-        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/netmig_1.0.0_all.deb">Download netmig_1.0.0_all.deb</a><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/netmig_1.0.0_all.deb">Download netmig_1.0.0_all.deb</a><br>
         2. Install via terminal:<br>
         <code>sudo dpkg -i netmig-installer.deb</code><br><br>
         ✅ Auto-setup:<br>
