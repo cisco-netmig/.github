@@ -207,8 +207,8 @@ We welcome contributions from the community! Whether it's a new script, feature 
 
 ## Documentation
 
-- [Netmig Setup Guide (Windows/Linux/macOS)](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/setup-guide.md)
-- [Creating and Publishing a Netmig Script](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/script-guide.md)
+- [Netmig Setup Guide (Windows/Linux/macOS)](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/doc-installer-guide.md)
+- [Creating and Publishing a Netmig Script](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/docs/doc-authoring-guide.md)
 
 ---
 
