@@ -115,7 +115,7 @@ Netmig addresses these challenges by:
       <td valign="top" style="width: 33%; padding: 8px;">
         <strong>Option 1: Script-Based</strong><br>
         🔹 Requires Python 3.7+, Cisco VPN<br><br>
-        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/installer.bat" download>Download installer.bat</a><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/installer.bat">Download installer.bat</a><br>
         2. Connect to VPN<br>
         3. Run:<br><code>installer.bat</code><br>
         4. Choose:<br>
