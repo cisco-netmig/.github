@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="netmigbanner.png" alt="Netmig Banner" />
+  <img src="./netmigbanner.png" alt="Netmig Banner" />
 </p>
 
 ## Overview
@@ -95,115 +95,100 @@ Netmig addresses these challenges by:
 
 ---
 
-## Getting Started
+## Installation
 
-The Netmig platform can be installed on **Windows**, **Linux**, and **macOS** using platform-specific scripts or native installers. Choose your preferred method below based on your OS and needs.
-
----
-
-### Windows Installation
-
-#### Option 1: Using `netmig-installer.bat` (Script-Based)
-##### Requirements
-- Windows 10 or later
-- Python 3.7+ (must be in PATH)
-- Cisco VPN connection (for GitHub Enterprise access)
-
-##### Steps
-1. Download: `netmig-installer.bat`
-2. Connect to Cisco VPN.
-3. Run the script:
-   ```cmd
-   installer.bat
-   ```
-4. Choose an install mode:
-   - `1` — Install Netmig App only  
-   - `2` — Install Admin Tools only  
-   - `3` — Install Both
-
-The script will:
-- Create `Netmig/` folder
-- Set up a shared Python virtual environment
-- Clone required GitHub repositories
-- Install Python dependencies
-- Generate launchers: `app-launcher.bat`, `admin-launcher.bat`
-
-##### To Launch
-```cmd
-app-launcher.bat       :: Launch Netmig App  
-admin-launcher.bat     :: Launch Admin Tools
-```
-
----
-
-#### Option 2: Using `NetmigInstaller.exe` (NSIS-Based GUI Installer)
-
-##### Steps
-1. Download: `NetmigInstaller.exe`
-2. Double-click to launch the wizard.
-3. Choose:
-   - Components to install (App/Admin/Both)
-   - Installation directory
-
-The installer will:
-- Automatically set up directories and environment
-- Create desktop/start menu shortcuts
-- Launch Netmig after installation (optional)
-
----
-
-### Linux Installation
-
-#### Option 1: Using `netmig-installer.sh` (Script-Based)
-##### Requirements
-- Python 3.7+ (`python3` and `pip`)
-- `curl`, `unzip`
-- Bash shell
-- Cisco VPN
-
-##### Steps
-```bash
-chmod +x installer.sh
-./installer.sh
-```
-
-Select one of:
-- `1` — Netmig App only  
-- `2` — Admin Tools only  
-- `3` — Both
-
-Installs:
-- `Netmig/` directory
-- Virtual environment in `venv/`
-- App/Admin source from GitHub
-- Python dependencies
-- Launchers: `app-launcher.sh`, `admin-launcher.sh`
-
-##### To Launch
-```bash
-./app-launcher.sh
-./admin-launcher.sh
-```
-
----
-
-#### Option 2: Using `netmig-installer.deb` (Debian Package)
-
-##### Steps
-```bash
-sudo dpkg -i netmig-installer.deb
-```
-
-Automatically:
-- Installs Netmig in `/opt/netmig/`
-- Creates launchers in `/usr/local/bin/`
-- Adds `.desktop` entries for GUI launch
-
----
-
-### macOS Installation
-
-#### Using `netmig-installer.sh` (Same as Linux)
-Follow the same steps as Linux above. The script is fully compatible with macOS and sets up everything under a `Netmig/` folder in your user directory.
+<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="width: 33%;"><img src="https://img.icons8.com/color/48/windows-10.png" alt="Windows" width="50" height="50"></th>
+      <th style="width: 33%;"><img src="https://img.icons8.com/color/48/linux.png" alt="Linux" width="50" height="50"></th>
+      <th style="width: 33%;"><img src="https://img.icons8.com/color/48/mac-os.png" alt="macOS" width="50" height="50"></th>
+    </tr>
+    <tr>
+      <th align="left" style="width: 33%;"><strong>Windows</strong></th>
+      <th align="left" style="width: 33%;"><strong>Linux</strong></th>
+      <th align="left" style="width: 33%;"><strong>macOS</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <strong>Option 1: Script-Based</strong><br>
+        🔹 Requires Python 3.7+, Cisco VPN<br><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/installer.bat">Download installer.bat</a><br>
+        2. Connect to VPN<br>
+        3. Run:<br><code>installer.bat</code><br>
+        4. Choose:<br>
+        ▪ 1 – App only<br>
+        ▪ 2 – Admin only<br>
+        ▪ 3 – Both<br><br>
+        ➡ Launch with:<br>
+        <code>app-launcher.bat</code><br>
+        <code>admin-launcher.bat</code>
+      </td>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <strong>Option 1: Script-Based</strong><br>
+        🔹 Requires Python 3.7+, curl, unzip, Cisco VPN<br><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/installer.sh">Download installer.sh</a><br>
+        2. Make it executable:<br>
+        <code>chmod +x installer.sh</code><br>
+        3. Run:<br><code>./installer.sh</code><br>
+        4. Choose:<br>
+        ▪ 1 – App only<br>
+        ▪ 2 – Admin only<br>
+        ▪ 3 – Both<br><br>
+        ➡ Launch with:<br>
+        <code>./app-launcher.sh</code><br>
+        <code>./admin-launcher.sh</code>
+      </td>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <strong>Option: Script-Based</strong><br>
+        🔹 Identical to Linux installation<br><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/raw/master/installers/installer.sh">Download installer.sh</a><br>
+        2. Ensure VPN is active<br>
+        3. Run:<br>
+        <code>chmod +x installer.sh</code><br>
+        <code>./installer.sh</code><br>
+        4. Choose:<br>
+        ▪ 1 – App only<br>
+        ▪ 2 – Admin only<br>
+        ▪ 3 – Both<br><br>
+        ➡ Launch with:<br>
+        <code>./app-launcher.sh</code><br>
+        <code>./admin-launcher.sh</code>
+      </td>
+    </tr>
+    <tr>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <strong>Option 2: GUI Installer</strong><br>
+        🔹 NSIS-based Windows executable<br><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/netmig-win64-installer.exe">Download netmig-win64-installer.exe</a><br>
+        2. Run installer<br>
+        3. Choose:<br>
+        ▪ Components to install<br>
+        ▪ Destination folder<br><br>
+        ✅ Auto-setup:<br>
+        ▪ Shortcuts<br>
+        ▪ Environment<br>
+        ▪ Optional auto-launch
+      </td>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <strong>Option 2: Debian Package</strong><br>
+        🔹 For Ubuntu/Debian systems<br><br>
+        1. <a href="https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/installers/netmig_1.0.0_all.deb">Download netmig_1.0.0_all.deb</a><br>
+        2. Install via terminal:<br>
+        <code>sudo dpkg -i netmig-installer.deb</code><br><br>
+        ✅ Auto-setup:<br>
+        ▪ /opt/netmig/<br>
+        ▪ Launchers in /usr/local/bin/<br>
+        ▪ .desktop GUI entry
+      </td>
+      <td valign="top" style="width: 33%; padding: 8px;">
+        <em>(No native .pkg or .dmg installer yet)</em><br>
+        Use the <strong>Linux-compatible script</strong> for full setup with Python virtual environment, GitHub cloning, and launcher generation.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ---
