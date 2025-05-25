@@ -12,7 +12,7 @@ By automating repetitive tasks, reducing script duplication, and simplifying com
 
 ## The Vision Behind Netmig
 
-In many organizations like Cisco, engineers create automation scripts individually, but these often end up:
+Engineers in network migration and similar teams often create automation scripts individually, but these scripts frequently end up:
 
 - Isolated from wider teams  
 - Difficult to share or reuse  
