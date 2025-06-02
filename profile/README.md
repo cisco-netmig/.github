@@ -95,6 +95,16 @@ Netmig addresses these challenges by:
 
 ---
 
+## Screenshots
+
+**Netmig (Application)** 
+![Netmig (Application)](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/screenshots/core-app/mainwindow.png)
+
+**Netmig (Admin-Tools)** 
+![Netmig (Admin-Tools)](https://wwwin-github.cisco.com/Netmig/resources-public/blob/master/screenshots/core-admin-tools/savings-dashboard.png)
+
+---
+
 ## Installation
 
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
