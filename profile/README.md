@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/raw/cisco-netmig/.github/master/profile/netmigbanner.png" alt="Netmig Banner" />
+  <img src="https://github.com/cisco-netmig/.github/blob/master/profile/netmigbanner.png" alt="Netmig Banner" />
 </p>
 
 ## Overview
